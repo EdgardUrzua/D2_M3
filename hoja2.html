@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles2.css">
+    <title>Stickers</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <aside>
+        <h3>Categorias</h3>
+        <a href="./index.html">pagina_1</a>
+        <a href="./hoja2.html">pagina_2</a>
+        <a href="./hoja3.html">pagina_3</a>
+
+    </aside>
+    <main>
+
+        <h1>Selecciona tus stickers</h1>
+        <p>puedes elegir 10 stickers maximo</p>
+        <!--stickers-->
+
+        <div class="contenedor">
+            <div class="card">
+                <img src="./assets/img/sticker1.jpg" alt="">
+
+                <input type="number" id="cantidad1" min="0" value="0">
+            </div>
+            <div class="card">
+                <img src="./assets/img/sticker2.jpg" alt="">
+                <input type="number" id="cantidad2" min="0" value="0">
+            </div>
+            <div class="card">
+                <img src="./assets/img/sticker3.jpg" alt="">
+                <input type="number" id="cantidad3" min="0" value="0">
+            </div>
+        </div>
+
+        <p id="mensaje"></p>
+
+        <button id="btnVerificar">Verificar</button>
+        <div class="btns">
+            <button><a href="./index.html">anterior</a></button> <button><a href="./hoja3.html">siguiente</a></button>
+        </div>
+    </main>
+    <footer>
+        <p>@Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./assets/js/script2.js"></script>
+</body>
+
+</html>
